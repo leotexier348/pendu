@@ -1,0 +1,35 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alignement vertical */
+}
+
+
+
+
+#alphabetSection{
+    display : flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#alphabetSection div{
+    margin : 10px;
+    padding: 10px;
+    border: 1px solid black;
+    transition: transform 0.3s ease;
+}
+
+#alphabetSection div:hover{
+    background-color: lightgray;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#recommencerBttn{
+    margin-top: 10px;
+}
